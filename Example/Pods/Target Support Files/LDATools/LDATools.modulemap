@@ -1,0 +1,6 @@
+framework module LDATools {
+  umbrella header "LDATools-umbrella.h"
+
+  export *
+  module * { export * }
+}
