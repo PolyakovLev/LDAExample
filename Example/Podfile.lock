@@ -1,15 +1,26 @@
 PODS:
-  - LDAExample (0.1.0)
+  - Alamofire (4.9.1)
+  - LDAExample (0.1.0):
+    - LDATools
+  - LDATools (0.1.4):
+    - Alamofire
 
 DEPENDENCIES:
   - LDAExample (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - LDATools
 
 EXTERNAL SOURCES:
   LDAExample:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LDAExample: 28d303d3960ce971ac67265c709374fbc98130dc
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  LDAExample: 5235f1fa7ac2d68ab1c26a34b227e4d86498b20d
+  LDATools: 20d1f1413caa6a91efd9ae5fe417d5486da8ae32
 
 PODFILE CHECKSUM: b7ef4988cb871c81db59124e69782b5b8c605015
 
