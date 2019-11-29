@@ -1,0 +1,22 @@
+{
+  "name": "LDAExample",
+  "version": "0.1.0",
+  "summary": "A short description of LDAExample.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PolyakovLev/LDAExample",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PolyakovLev": "Lev.POLYAKOV@raiffeisen.ru"
+  },
+  "source": {
+    "git": "https://github.com/PolyakovLev/LDAExample.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LDAExample/Classes/**/*"
+}

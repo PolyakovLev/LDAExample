@@ -1,0 +1,16 @@
+PODS:
+  - LDAExample (0.1.0)
+
+DEPENDENCIES:
+  - LDAExample (from `../`)
+
+EXTERNAL SOURCES:
+  LDAExample:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LDAExample: 28d303d3960ce971ac67265c709374fbc98130dc
+
+PODFILE CHECKSUM: b7ef4988cb871c81db59124e69782b5b8c605015
+
+COCOAPODS: 1.8.4
