@@ -9,10 +9,27 @@
 import Foundation
 import LDATools
 
-public func printBill(price: Decimal, type: OperationType, time: Date) {
-    print("\n\n|--------------BILL:---------------")
-    print("|operation sum:  \(price)")
-    print("|type:           \(type)")
-    print("|time:           \(time.dateToString(format: .yearMonthDayTime24))")
-    print("|----------------------------------\n\n")
+public final class Bill {
+    var price: Decimal
+    var type: OperationType
+    var time: Date
+    
+    public func describtion() {
+        let dateFormater = DateFormatter()
+        dateFormater.dateFormat = "yyy.MM.dd 'at' h:mm a"
+        print("\n\n|--------------BILL:---------------")
+        print("|operation sum:  \(price)")
+        print("|type:           \(type)")
+        print("|time:           \(time.dateToString(format: .yearMonthDayTime24))")
+        print("|----------------------------------\n\n")
+    }
+    
+    public required init(type: OperationType,
+                  time: Date,
+                  price: Decimal) {
+        self.type = type
+        self.time = time
+        self.price = price
+    }
 }
+
